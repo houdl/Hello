@@ -55,5 +55,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button login_btn_show5 = (Button)findViewById(R.id.btn_show5);
+        login_btn_show5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent scrolling = new Intent(MainActivity.this, TestFragmentActivity.class);
+                startActivity(scrolling);
+            }
+        });
+
     }
 }

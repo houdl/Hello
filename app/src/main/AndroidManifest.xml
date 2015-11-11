@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".activities.TestListView1Activity" >
         </activity>
+        <activity android:name=".activities.TestFragmentActivity" >
+        </activity>
     </application>
 
 </manifest>
