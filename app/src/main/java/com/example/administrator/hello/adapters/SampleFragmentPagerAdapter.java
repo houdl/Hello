@@ -1,4 +1,4 @@
-package com.example.administrator.hello;
+package com.example.administrator.hello.adapters;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,7 @@ import com.example.administrator.hello.activities.PageFragment;
 
 public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 3;
-    private String tabTitles[] = new String[] { "Tab1", "Tab2", "Tab3" };
+    private String tabTitles[] = new String[] { "消息", "通讯录", "我" };
     private Context context;
 
     public SampleFragmentPagerAdapter(FragmentManager fm, Context context) {

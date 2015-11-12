@@ -5,7 +5,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 
 import com.example.administrator.hello.R;
-import com.example.administrator.hello.SampleFragmentPagerAdapter;
+import com.example.administrator.hello.adapters.SampleFragmentPagerAdapter;
 
 public class TestFragmentActivity extends FragmentActivity {
 
