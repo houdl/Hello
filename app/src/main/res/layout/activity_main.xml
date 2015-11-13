@@ -20,7 +20,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="show1"
+                android:text="Toast test"
                 android:id="@+id/btn_show1"
                 android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
@@ -29,7 +29,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="show2"
+                android:text="Scrolling and Transition test"
                 android:id="@+id/btn_show2"
                 android:layout_alignBaseline="@+id/btn_show1"
                 android:layout_alignBottom="@+id/btn_show1"
@@ -65,6 +65,12 @@
                 android:layout_height="wrap_content"
                 android:text="show6"
                 android:id="@+id/btn_show6"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="active Android  orm"
+                android:id="@+id/btn_show7"
                 android:layout_gravity="center_horizontal" />
         </LinearLayout>
     </ScrollView>
