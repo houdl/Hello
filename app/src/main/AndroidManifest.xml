@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".activities.TestFragmentActivity" >
         </activity>
+        <activity android:name=".activities.TestClickActivity" >
+        </activity>
     </application>
 
 </manifest>

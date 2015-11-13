@@ -42,7 +42,17 @@ public class TestListView1Activity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView tvUserName = (TextView) view.findViewById(R.id.tvName);
                 User user = arrayOfUsers.get(position);
-                Toast.makeText(getApplicationContext(), user.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), user.getName() + " on item click!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                TextView tvUserName = (TextView) view.findViewById(R.id.tvName);
+                User user = arrayOfUsers.get(position);
+                Toast.makeText(getApplicationContext(), user.getName() + " on item long click!", Toast.LENGTH_SHORT).show();
+                return false;
             }
         });
     }
